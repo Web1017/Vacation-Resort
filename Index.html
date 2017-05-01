@@ -8,21 +8,94 @@
     <title>Bootstrap 101 Template</title>
 
     <!-- CSS Section -->
-<link rel="stylesheet" href="Content\css\style.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
+    
+    <link rel="stylesheet" href="Content\css\bootstrap.min.css" >
+    <link rel="stylesheet" href="Content\css\bootstrap-theme.min.css">
+     <link rel="stylesheet" href="Content\css\font-awesome.min.css">
+    <link rel="stylesheet" href="Content\css\style.css">
    
   </head>
   <body>
-    <h1>Hello, world!</h1>
+
+  <!--Navigation -->
+
+  <div id="myNavbar" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+          </button>
+          <a href="#" class="navbar-brand">Media</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#header"> Home</a></li>
+                <li><a href="#services"> Services</a></li>
+                <li><a href="#pricing"> Team</a></li>
+                <li><a href="#clients"> Clients</a></li>
+                <li><a href="#contact"> Contact</a></li>
+            </ul>
+        </div>
+    </div>
+  </div>
+   
+<!--End Navigation-->
+
+<!--Header-->
+<div id="header" class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6">
+                <h1> Visit your Favorite Destination </h1>
+                <p> Select your location and visit them as soon as possible. </p>
+                <button class="btn btn-lg btn-primary"> Select Now</button>
+                <button class="btn btn-lg btn-success"> Buy Now</button>
+            </div>
+              <div class="col-lg-6 col-md-6">
+                <!--<img src="Images\vacationlogo.png" alt="">-->
+            </div>
+        </div>
+</div>
+<!--End Header-->
+
+<!--Services-->
+<div id="services" class="services">
+    <div class="container">
+        <h2>Services</h2>
+        <p>Welcome to our website serices info. We will update the information soon.</p>     
+    <div class="row">
+        <div class="col-lg-3 col-md-3">
+            <i class="fa fa-desktop" aria-hidden="true"></i>
+            <h4>Web Design</h4>
+            <p>Website design pattern</p>
+        </div>
+        <div class="col-lg-3 col-md-3">
+            <i class="fa fa-mobile" aria-hidden="true"></i>
+            <h4>Mobile</h4>
+            <p>Mobile design pattern</p>
+        </div>
+        <div class="col-lg-3 col-md-3">
+            <i class="fa fa-database" aria-hidden="true"></i>
+            <h4>Database</h4>
+            <p>Database design pattern</p>
+        </div>
+        <div class="col-lg-3 col-md-3">
+              <i class="fa fa-university" aria-hidden="true"></i>
+            <h4>Consulting</h4>
+            <p>Consulting our customer base</p>
+         </div>
+     </div>
+    </div>
+</div>
+<!--End Services-->
 
 
-    
+
 <!--Javascript Section-->
-<script src="Scripts\app.js"></script>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="Scripts\jquery-3.2.1.min.js"></script>
+    <script src="Scripts\bootstrap.min.js"></script>
+    <script src="Scripts\app.js"></script>
   </body>
 </html>
