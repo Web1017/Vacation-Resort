@@ -1,3 +1,4 @@
+/*Website Created by Javid Niftaliyev - April - 2017*/
 * {
 
     padding: 0;
@@ -281,5 +282,113 @@ p {
     background-color: #709963;
 }
 
+/*CLIENTS*/
+.clients {
+    padding: 50px 0 80px;
+    background-color: #3399ff;
+    text-align: center;
+    color: #fff;
+}
 
-/*@media(max-width)*/
+.clients h2 {
+    color:#5e5e5e;
+}
+
+/*push images to bottom*/
+.clients p{
+    padding-bottom:40px
+}
+
+.clients img{
+    width: 270px;
+    height: 70px;
+    opacity:0.6;
+    cursor:pointer;
+    margin: 40px 0;
+    transition: all 500ms ease-in-out;
+}
+
+.clients li:hover img {
+    opacity:1;
+}
+
+/*CONTACT*/
+
+.contact{
+    padding: 50px 0 80px;
+    text-align: center;
+}
+
+.contact p {
+    padding-bottom: 80px;
+    color:#737373;
+}
+
+.contact h2 {
+    color:#4c4c4c;
+    margin: 20px 0 20px;
+}
+
+contact .input-group{
+    margin-bottom:25px;
+   
+}
+
+.contact .form-control{
+    /*overwrite bootstrap default style*/
+    border-radius: 0 !important;
+}
+.contact span {
+    border-radius: 0 !important;
+}
+
+.contact .btn {
+    border-radius: 0;
+    width: 80%;
+    font-size: 15px;
+    background-color: #f08080;
+    color: #fff;
+}
+
+.contact .btn:hover {
+    background-color: #a85959 !important;
+    color:#fff !important;
+}
+
+.input-group{
+    margin-bottom: 20px;
+}
+
+
+/*FOOTER*/
+
+.footer{
+    padding:30px;
+    color: #cccccc;
+    background-color: #222222;
+}
+
+.footer .social{
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    text-align:center;
+    padding: 5px;
+    border: 1px solid #cccccc;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.footer input {
+    height: 40px;
+    width: 160px;
+    padding: 5px;
+    border: none;
+    background-color: #cccccc;
+    color: #000;
+}
+
+.footer .btn {
+    padding: 10px 5px 10px;
+    margin: -3px 0 0 5px;
+}
