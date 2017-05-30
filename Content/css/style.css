@@ -85,9 +85,11 @@ p {
     margin-top: 50px;
     background-image: url("http://bitour.vn/public/uploads/images/Anh%201.jpg");
     /*background-image: url(..\Assets\Images\Travel.jpg);*/
+    /*background-image: url(\Assets\Images\Travel.jpg);*/
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+
     
     /*color: #fff;*/
 }
