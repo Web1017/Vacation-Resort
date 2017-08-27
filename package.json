@@ -1,0 +1,27 @@
+{
+  "name": "vacation-resort-v1.0",
+  "version": "1.0.0",
+  "description": "Creating a vacation website project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Web1017/Vacation-Resort.git"
+  },
+  "keywords": [
+    "vacation",
+    "Javascript"
+  ],
+  "author": "Javid Niftaliyev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Web1017/Vacation-Resort/issues"
+  },
+  "homepage": "https://github.com/Web1017/Vacation-Resort#readme",
+  "dependencies": {
+    "connect": "^3.6.2",
+    "jquery": "^3.2.1"
+  }
+}
